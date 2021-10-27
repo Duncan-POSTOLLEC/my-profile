@@ -1,0 +1,102 @@
+body {
+  background: #E0E9FF;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("images/background.jpg");
+  color: #575F7D;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+h1, h2, {
+  font-family: "times new roman", times, serif;
+}
+h1 {
+  color: #003049;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #003049;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #003049;
+  font-weight: 600;
+  font-size: 16px;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #1D3557;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.btn-blue:hover {
+  background-color: white;
+  color: #1D3557;
+}
+.btn-stmichel{
+  background-color: #1D3557;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.hover-orange:hover {
+  background-color: orange;
+  color: #1D3557;
+}
+.btn-email {
+  background-color: #1D3557;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 8px;
+}
+.hover-email:hover {
+  background-color: white;
+  color: #1D3557;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+p {
+  margin-bottom: 40px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1FR 1FR;
+}
+.column-gap{
+  grid-gap: 20px;
+}
